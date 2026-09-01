@@ -1,0 +1,543 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    background-color: white;
+    color: black;
+    font-family: Arial, sans-serif;
+}
+
+
+/* ================= HEADER ================= */
+
+.header {
+    width: 100%;
+    height: 65px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 22px;
+    background-color: white;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    color: red;
+    text-decoration: none;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.logo-dots {
+    font-size: 9px;
+    line-height: 7px;
+    text-align: center;
+    letter-spacing: 2px;
+}
+
+.navigation {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.navigation a {
+    color: black;
+    text-decoration: none;
+    font-size: 15px;
+}
+
+.navigation a:hover {
+    color: red;
+}
+
+
+/* ================= HEADER GET STARTED ================= */
+
+.header-button {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    background-color: red;
+    color: white !important;
+    padding: 9px 18px 9px 10px;
+    border-radius: 30px;
+    font-weight: bold;
+}
+
+.header-button img {
+    width: 24px;
+    height: 24px;
+    display: block;
+}
+
+
+/* ================= HERO ================= */
+
+.hero {
+    text-align: center;
+    padding: 60px 20px 120px;
+}
+
+.hero h1 {
+    margin: 0;
+    font-size: 58px;
+    line-height: 1.15;
+    font-weight: 400;
+}
+
+.hero p {
+    font-size: 21px;
+    margin: 20px 0 32px;
+}
+
+.hero-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 14px;
+}
+
+.button {
+    display: inline-block;
+    padding: 14px 40px;
+    border-radius: 30px;
+    text-decoration: none;
+    font-size: 19px;
+    font-weight: bold;
+}
+
+.button-outline {
+    border: 1px solid red;
+    color: red;
+    background-color: white;
+}
+
+.button-red {
+    border: 1px solid red;
+    background-color: red;
+    color: white;
+}
+
+
+/* ================= GENERAL FEATURES ================= */
+
+.feature {
+    width: 100%;
+    max-width: 1100px;
+    min-height: 600px;
+    margin: 0 auto;
+    padding: 80px 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 60px;
+}
+
+.feature-text {
+    width: 45%;
+}
+
+.feature-text h2 {
+    font-size: 44px;
+    line-height: 1.15;
+    margin: 0 0 22px;
+    font-weight: 700;
+}
+
+.feature-text p {
+    font-size: 17px;
+    line-height: 1.55;
+    margin: 0;
+}
+
+.feature-image {
+    width: 55%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.feature-image img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+
+/* ================= FEATURE 1 ================= */
+
+.feature-one {
+    padding-top: 30px;
+}
+
+.feature-one .feature-image img {
+    width: 100%;
+    max-width: 620px;
+}
+
+
+/* ================= FEATURE 2 ================= */
+
+.feature-two {
+    padding-top: 80px;
+}
+
+.feature-two .feature-image img {
+    width: 100%;
+    max-width: 600px;
+}
+
+
+/* ================= FEATURE 3 ================= */
+
+.feature-three {
+    padding-top: 80px;
+}
+
+.feature-three .feature-image img {
+    width: 100%;
+    max-width: 620px;
+}
+
+
+/* ================= FEATURE 4 ================= */
+
+.feature-four {
+    padding-top: 80px;
+}
+
+.feature-four .feature-image img {
+    width: 100%;
+    max-width: 610px;
+}
+
+
+/* ================= FEATURE 5 ================= */
+
+.feature-five {
+    padding-top: 80px;
+    padding-bottom: 130px;
+}
+
+.feature-five .feature-image img {
+    width: 100%;
+    max-width: 620px;
+}
+
+
+/* ================= MORE FEATURES ================= */
+
+.more {
+    width: 100%;
+    padding: 100px 30px;
+    text-align: center;
+    background-color: white;
+    position: relative;
+}
+
+.more > h2 {
+    font-size: 48px;
+    font-weight: 400;
+    margin: 0 0 80px;
+}
+
+.more-grid {
+    width: 100%;
+    max-width: 1000px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 90px;
+}
+
+.more-card {
+    text-align: center;
+}
+
+.more-card .icon {
+    width: 85px;
+    height: 85px;
+    margin: 0 auto 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.more-card .icon img {
+    width: 85px;
+    height: 85px;
+    display: block;
+    object-fit: contain;
+}
+
+.more-card h3 {
+    font-size: 21px;
+    margin: 0 0 15px;
+}
+
+.more-card p {
+    font-size: 16px;
+    line-height: 1.55;
+    margin: 0;
+}
+
+
+/* ================= FINAL CTA ================= */
+
+.final-cta {
+    width: 100%;
+    text-align: center;
+    padding: 100px 20px 150px;
+}
+
+.final-cta h2 {
+    font-size: 48px;
+    line-height: 1.2;
+    font-weight: 400;
+    margin: 0 0 40px;
+}
+
+.final-cta .hero-buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 14px;
+}
+
+.final-cta .button {
+    display: inline-block;
+    padding: 14px 40px;
+    border-radius: 30px;
+    text-decoration: none;
+    font-size: 19px;
+    font-weight: bold;
+}
+
+.final-cta .button-outline {
+    border: 1px solid red;
+    background-color: white;
+    color: red;
+}
+
+
+/* THIS MATCHES YOUR EXISTING HTML: botton-red */
+
+.final-cta .botton-red {
+    border: 1px solid red;
+    background-color: red;
+    color: white;
+    text-decoration: none;
+}
+
+
+/* ================= FOOTER ================= */
+
+.footer {
+    width: 100%;
+    text-align: center;
+    padding: 75px 20px 30px;
+}
+
+.footer-logo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.footer-dots {
+    margin-bottom: 10px;
+}
+
+.footer-dots img {
+    width: 70px;
+    height: auto;
+    display: block;
+}
+
+.socials {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 22px;
+    margin-bottom: 35px;
+}
+
+.socials a {
+    color: red;
+    text-decoration: none;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.socials img {
+    width: 25px;
+    height: 25px;
+    display: block;
+}
+
+.footer-links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 18px;
+    margin-bottom: 35px;
+}
+
+.footer-links a {
+    color: black;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.footer-links a:hover {
+    color: red;
+}
+
+.copying {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 6px;
+    font-size: 15px;
+    margin: 0;
+}
+
+.copying img {
+    width: 18px;
+    height: 18px;
+}
+
+
+/* ================= MOBILE ================= */
+
+@media (max-width: 800px) {
+
+    .header {
+        height: auto;
+        padding: 15px 20px;
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .navigation {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 15px;
+    }
+
+    .header-button {
+        padding: 9px 15px 9px 9px;
+    }
+
+
+    .hero {
+        padding: 50px 20px 80px;
+    }
+
+    .hero h1 {
+        font-size: 42px;
+    }
+
+    .hero p {
+        font-size: 18px;
+    }
+
+    .hero-button {
+        flex-wrap: wrap;
+    }
+
+
+    .feature {
+        flex-direction: column;
+        min-height: auto;
+        padding: 70px 20px;
+        gap: 45px;
+    }
+
+    .feature-text {
+        width: 100%;
+    }
+
+    .feature-text h2 {
+        font-size: 36px;
+    }
+
+    .feature-text p {
+        font-size: 16px;
+    }
+
+    .feature-image {
+        width: 100%;
+    }
+
+    .feature-image img {
+        width: 100%;
+        max-width: 650px;
+    }
+
+
+    .feature-two .feature-image {
+        order: 2;
+    }
+
+    .feature-two .feature-text {
+        order: 1;
+    }
+
+
+    .feature-four .feature-image {
+        order: 1;
+    }
+
+    .feature-four .feature-text {
+        order: 2;
+    }
+
+
+    .more {
+        padding: 70px 20px;
+    }
+
+    .more > h2 {
+        font-size: 40px;
+        margin-bottom: 60px;
+    }
+
+    .more-grid {
+        grid-template-columns: 1fr;
+        gap: 70px;
+    }
+
+
+    .final-cta {
+        padding: 80px 20px 110px;
+    }
+
+    .final-cta h2 {
+        font-size: 40px;
+    }
+
+    .final-cta .hero-buttons {
+        flex-wrap: wrap;
+    }
+
+
+    .footer {
+        padding-top: 60px;
+    }
+
+}
