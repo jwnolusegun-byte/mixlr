@@ -14,7 +14,7 @@ body {
 }
 
 
-/* ================= HEADER ================= */
+/*  HEADER  */
 
 .header {
     width: 100%;
@@ -63,7 +63,7 @@ body {
 }
 
 
-/* ================= HEADER GET STARTED ================= */
+/*  HEADER GET STARTED  */
 
 .header-button {
     display: flex;
@@ -83,7 +83,7 @@ body {
 }
 
 
-/* ================= HERO ================= */
+/*  HERO  */
 
 .hero {
     text-align: center;
@@ -131,7 +131,7 @@ body {
 }
 
 
-/* ================= GENERAL FEATURES ================= */
+/*  GENERAL FEATURES  */
 
 .feature {
     width: 100%;
@@ -176,7 +176,7 @@ body {
 }
 
 
-/* ================= FEATURE 1 ================= */
+/*  FEATURE 1  */
 
 .feature-one {
     padding-top: 30px;
@@ -188,7 +188,7 @@ body {
 }
 
 
-/* ================= FEATURE 2 ================= */
+/*  FEATURE 2  */
 
 .feature-two {
     padding-top: 80px;
@@ -200,7 +200,7 @@ body {
 }
 
 
-/* ================= FEATURE 3 ================= */
+/*  FEATURE 3  */
 
 .feature-three {
     padding-top: 80px;
@@ -212,7 +212,7 @@ body {
 }
 
 
-/* ================= FEATURE 4 ================= */
+/*  FEATURE 4  */
 
 .feature-four {
     padding-top: 80px;
@@ -224,7 +224,7 @@ body {
 }
 
 
-/* ================= FEATURE 5 ================= */
+/*  FEATURE 5  */
 
 .feature-five {
     padding-top: 80px;
@@ -237,7 +237,7 @@ body {
 }
 
 
-/* ================= MORE FEATURES ================= */
+/*  MORE FEATURES  */
 
 .more {
     width: 100%;
@@ -294,7 +294,7 @@ body {
 }
 
 
-/* ================= FINAL CTA ================= */
+/*  FINAL CTA  */
 
 .final-cta {
     width: 100%;
@@ -342,7 +342,7 @@ body {
 }
 
 
-/* ================= FOOTER ================= */
+/*  FOOTER  */
 
 .footer {
     width: 100%;
@@ -422,7 +422,7 @@ body {
 }
 
 
-/* ================= MOBILE ================= */
+/*  MOBILE  */
 
 @media (max-width: 800px) {
 
